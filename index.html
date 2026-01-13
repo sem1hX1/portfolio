@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Semih Şeker | Kişisel Portföy</title>
+    <meta name="description" content="Semih Şeker - Bilgisayar Teknikeri | Web Geliştirme, Robotik Kodlama ve Siber Güvenlik">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Typed.js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- JS -->
+    <script src="index.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header>
+    <nav>
+        <div class="navbar">
+            <div class="navLogo">Semih Şeker</div>
+
+            <div class="hamburger" id="hamburger" aria-label="Menüyü Aç">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="navlink" id="nav-menu">
+                <ul>
+                    <li><a href="#AnaSayfa">Ana Sayfa</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#projeler">Projelerim</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section id="AnaSayfa">
+    <div class="middle-left-area" data-aos="fade-right">
+        <h1 class="main-name">Semih Şeker</h1>
+        <div class="sub-text-wrapper">
+            <span id="typed-text"></span>
+        </div>
+    </div>
+
+    <div class="resimkapsayici" data-aos="fade-left">
+        <div class="resim">
+            <img src="imgs/semihskrpp.jpg" alt="Semih Şeker Profil Fotoğrafı">
+        </div>
+    </div>
+</section>
+
+<!-- ================= HAKKIMDA ================= -->
+<section class="HakkımdaKapsayıcı" id="hakkimda" data-aos="zoom-in">
+    <div class="Hakkımdaİçerik">
+        <h2 class="HakkımdaBaşlık">Hakkımda</h2>
+        <p class="hakımdayazı">
+            Merhaba, ben Semih Şeker. Bilgisayar teknikeriyim ve Karabük Üniversitesi Bilgisayar Teknolojisi bölümünde öğrenim görüyorum.
+            Yazılım geliştirme, robotik kodlama ve siber güvenlik alanlarında kendimi sürekli geliştiren,
+            teknolojiye tutkuyla bağlı bir bilgisayar meraklısıyım.
+        </p>
+    </div>
+</section>
+
+<!-- ================= PROJELER ================= -->
+<section class="kartkapsayıcı" id="projeler">
+
+    <div class="kart" data-aos="fade-up" data-aos-delay="100">
+        <div class="kartimg">
+            <img src="imgs/2doyun.png" alt="Proje 1">
+        </div>
+        <div class="kartBaşlık">2D Oyun</div>
+        <div class="kartyazı">
+            <p>Magical Exile, Karabük Üniversitesi Yapay Zeka Kulübü tarafından düzenlenen Power Up Game Jam etkinliğinde, 48 saat içinde geliştirdiğimiz bir platform/aksiyon oyunudur.</p>
+        </div>
+        <div class="kartbutton">
+            <a href="https://github.com/sem1hX1/power-up-game-jam-magical-exile" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="kart" data-aos="fade-up" data-aos-delay="200">
+        <div class="kartimg">
+            <img src="imgs/jamer.jpeg" alt="Proje 2">
+        </div>
+        <div class="kartBaşlık">2.4 Ghz Jammer</div>
+        <div class="kartyazı">
+    <p>ESP32 tabanlı bu pentest projesi, 2.4 GHz frekans bandında çalışan Bluetooth, IoT ve Wi-Fi cihazlarının sinyal gücü testlerini gerçekleştirmek amacıyla geliştirilmiştir.</p>
+        </div>
+        <div class="kartbutton">
+            <a href="https://github.com/sem1hX1/ESP32-2.4Ghz-jammer" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="kart" data-aos="fade-up" data-aos-delay="300">
+        <div class="kartimg">
+            <img src="imgs/akılımetre2.jpeg" alt="Proje 3">
+        </div>
+        <div class="kartBaşlık">Akıllı Metre</div>
+        <div class="kartyazı">
+        <p>ESP32 kullanılarak geliştirilen bu akıllı metre; lazerle mesafe ölçümü, su terazisi özelliği, ortam sıcaklığı ölçümü ve renk kodu algılama gibi çok amaçlı fonksiyonlara sahiptir.</p>
+        </div>
+        <div class="kartbutton">
+            <a href="https://github.com/sem1hX1/Ak-l-Metre" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+    <div class="kart" data-aos="fade-up" data-aos-delay="300">
+        <div class="kartimg">
+            <img src="imgs/araçkiralama.png" alt="Proje 3">
+        </div>
+        <div class="kartBaşlık">Araç Kiralama Sistemi</div>
+        <div class="kartyazı">
+        <p>C# Windows Forms kullanılarak geliştirilen bu proje, araç kiralama firmalarının rezervasyon ve araç yönetim süreçlerini dijital ortama taşır. Sistem; rezervasyon takibi ve dinamik fiyatlandırma gibi temel işlevler sunar.</p>
+
+        </div>
+        <div class="kartbutton">
+            <a href="https://github.com/sem1hX1/Akilli-Arac-Kiralama-Rezarvasyon-Sistemi" target="_blank">GitHub</a>
+        </div>
+    </div>
+
+</section>
+
+<!-- ================= İLETİŞİM ================= -->
+<footer class="IletisimKapsayıcı" id="iletisim" data-aos="fade-up">
+    <div class="Iletisimİçerik">
+        <h2 class="HakkımdaBaşlık">İletişim</h2>
+
+        <div class="SosyalMedya">
+            <a href="mailto:semihskr42@gmail.com" class="SosyalLink">
+                <i class="fa-solid fa-envelope"></i> E-Posta
+            </a>
+            <a href="https://www.linkedin.com/in/semih-%c5%9feker/" target="_blank" class="SosyalLink">
+                <i class="fa-brands fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="https://github.com/sem1hX1" target="_blank" class="SosyalLink">
+                <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.instagram.com/semih_seker13/" target="_blank" class="SosyalLink">
+                <i class="fa-brands fa-instagram"></i> Instagram
+            </a>
+        </div>
+
+        <div class="FooterAlt">
+            <p>&copy; 2026 Semih Şeker. Tüm Hakları Saklıdır.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ================= AOS ================= -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        once: true
+    });
+</script>
+
+</body>
+</html>
